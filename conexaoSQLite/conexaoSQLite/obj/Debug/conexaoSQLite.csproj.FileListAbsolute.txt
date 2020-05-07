@@ -28,3 +28,7 @@ C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexa
 C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\obj\Debug\conexaoSQLite.csproj.CopyComplete
 C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\obj\Debug\conexaoSQLite.exe
 C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\obj\Debug\conexaoSQLite.pdb
+C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\bin\Debug\conexaoSQLite.exe.manifest
+C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\bin\Debug\conexaoSQLite.application
+C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\obj\Debug\conexaoSQLite.exe.manifest
+C:\Users\maxwe\source\repos\maxwellmiquelino\videos-youtube\conexaoSQLite\conexaoSQLite\obj\Debug\conexaoSQLite.application

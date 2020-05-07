@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="conexaoSQLite.exe" version="1.0.0.0" publicKeyToken="b5d8f521604447a9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="conexaoSQLite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="conexaoSQLite.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="conexaoSQLite.exe" size="9184">
+      <assemblyIdentity name="conexaoSQLite" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>tKuPyPv42d+ocvUIfmEFD5EYOrtSZ9B2tvCwOmQjHEY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="363520">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.112.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>UfU86BWP0gUB2W/l7xHC0ytuI1QmTO6y8VHDU7s/+4g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="conexaoSQLite.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x64\sqlite3.dll" size="1680384">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zdbEB7YTcSgOScmis0r07AawGRmT5u3o77kjWZCDeXc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="x86\sqlite3.dll" size="826775">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bersL5bIocIGmKk93UaNVEe1WsQm3Dge712RsZlTu3s=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-HCTTP0H\maxwe" issuerKeyHash="f4c32f75de4faf293415fece5c1f565e07452441" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1ftzFDd6BoQzAFB28TIZZ/6Ja5G254KlpXhkeNyhRsU=</DigestValue></Reference></SignedInfo><SignatureValue>C+ey9urX8YpzB7Ha4wtNFgDUnCm6dIwOn19R21TkVbyi2V4OGedoYAEWwoinCc9M533ccxMQT/nJ/1mHGIOe2FIlepoRfc6KtUneFxfUlltJW44lgTvonmvUHQJE9uSsGO1hJqJBxTeOq5zZF1MYGb5uHhNxp0vAGixDkOB8toQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>mMZY58w5DcV7RIJndX1NqozUPY4zxxEJv2x8HzN3P6I0+f/Xnl6+Quj3hi/7xIq8Od4Bb1zKlpzaRqiURT3t+R8SRxVIVxnmP5nd2AoXn25+kvqOmibm1UPxjPuhbHbDpiTz8zQsgimvKwnXK1Mo9wjcT0TClHbrbuTDu6aNA8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c546a1dc786478a5a582e7b6916b89fe671932f17650003384067a371473fbd5" Description="" Url=""><as:assemblyIdentity name="conexaoSQLite.exe" version="1.0.0.0" publicKeyToken="b5d8f521604447a9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-HCTTP0H\maxwe</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ACL8ebYkIu7+5TIkr2kpq94Web2OUEWr9l/mw2mD9QY=</DigestValue></Reference></SignedInfo><SignatureValue>HEeE5S1Ka8U+xvyRjnsNty71ph1hfLC/3ZE083808ywM6BASWiQObkjyFk8yxLjIGm0f2Sg9nfTwSjUWh69IvmL3tdFFxVo82Ukb0UTxDLBDf6zfZb8GzgCJMQlszMkbhbmrphsDrewFIC4yCdmQRL77BImBB3ZSw+Lr9awbTbo=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>mMZY58w5DcV7RIJndX1NqozUPY4zxxEJv2x8HzN3P6I0+f/Xnl6+Quj3hi/7xIq8Od4Bb1zKlpzaRqiURT3t+R8SRxVIVxnmP5nd2AoXn25+kvqOmibm1UPxjPuhbHbDpiTz8zQsgimvKwnXK1Mo9wjcT0TClHbrbuTDu6aNA8E=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQOSUnCpa9Mq1LSrE+Q5VTiDANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgAQwBUAFQAUAAwAEgAXABtAGEAeAB3AGUwHhcNMjAwMjEzMjI0ODA1WhcNMjEwMjEzMDQ0ODA1WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEgAQwBUAFQAUAAwAEgAXABtAGEAeAB3AGUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJjGWOfMOQ3Fe0SCZ3V9TaqM1D2OM8cRCb9sfB8zdz+iNPn/155evkLo94Yv+8SKvDneAW9cypac2kaolEU97fkfEkcVSFcZ5j+Z3dgKF59ufpL6jpom5tVD8Yz7oWx2w6Yk8/M0LIIprysJ1ytTKPcI3E9EwpR2627kw7umjQPBAgMBAAEwDQYJKoZIhvcNAQELBQADgYEADyrg1Bi95B3HE6pSgXaPw+sbVNzZa2+D/VYyVp4gfq7BA+iEmwAblpJW8spAeSKFGC9vUxr7xfjtEEg6CvOcEzUU0EfuSOL6x6Hrl+ToLkVzNBTOZIVKIA4eV5mWIOKMNKZ0vquq22aIPJoS0XsbWig7onRHWh26eawx1YSQpcM=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
